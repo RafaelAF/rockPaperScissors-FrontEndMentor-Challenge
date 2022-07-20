@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <link rel="stylesheet" href="/stageNormal.css">
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="scoreBoardContainer" id="scoreBoard">
+      <div class="scoreBoard">
+        <div>
+          <img src="/images/logo.svg" alt="">
+        </div>
+        <div class="pontuation">
+          <p>Score</p>
+          <h2 id="score" class="score">0</h2>
+        </div>
+      </div>
+    </div>
+    <div class="localPlace" id="localPlace">
+      <div id="step1" class="step1">
+        <div class="options">
+          <div class="contentRock"><button id="rock" class="rock"><img src="/images/icon-rock.svg" alt=""></button></div>
+          <div class="contentPaper"><button id="paper" class="paper"><img src="/images/icon-paper.svg" alt=""></button></div>
+          <div class="contentScissors"><button id="scissors" class="scissors"><img src="/images/icon-scissors.svg" alt=""></button></div>
+        </div>
+      </div>
+      <div id="step2" class="step2">
+        <div id="myChoice_step1">
+          <span>You Picked</span>
+          <button></button>
+        </div>
+        <div id="houseChoice_step1">
+          <span>The House Picked</span>
+          <button></button>
+        </div>
+      </div>
+      <div id="step3" class="step3">
+        <div class="options2">
+          <div id="myChoice_step2" class="myChoice_step2">
+            <span class="pickText">You Picked</span>
+            <button class="myChoice"><img src="" alt=""></button>
+          </div>
+          <div id="result" class="result">
+            <span class="resultText">your result</span>
+            <button>Play Again</button>
+          </div>
+          <div id="houseChoice_step2" class="houseChoice_step2">
+            <span class="pickText">The House Picked</span>
+            <button class="houseChoice"><img src="" alt="" ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modalRulesContainer" id="modalRules">
+      <div class="modalRules">
+        <div class="rules">
+          <p>Rules</p>
+          <img src="/images/icon-close.svg" alt="" id="close">
+        </div>
+        <img class="rule" src="/images/image-rules.svg" alt=""/>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+    
+    
+    <button class="btnRules">Rules</button>
+  </main>
+  
+  
+  
+  <script src="/script.js"></script>
+</body>
+</html>
